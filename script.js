@@ -9,3 +9,8 @@ buttonPlay.onclick = () => {
   buttonPlay.classList.add('hide')
   buttonPause.classList.remove('hide')
 }
+
+buttonPause.onclick = () => {
+  buttonPause.classList.add('hide')
+  buttonPlay.classList.remove('hide')
+}

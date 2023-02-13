@@ -32,5 +32,10 @@ export default function Controls({
     return newMinutes
   }
 
-  return { reset, play, pause, getMinutes }
+  return {
+    reset,
+    play,
+    pause,
+    getMinutes
+  }
 }
